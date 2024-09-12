@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/test/java/assertions/AssertableResponse.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/assertions/Condition.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/assertions/GenericAssertableResponse.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/assertions/conditions/Conditions.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/assertions/conditions/MessageCondition.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/assertions/conditions/StatusCodeCondition.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/listener/CustomTpl.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/tpl" charset="windows-1251" />
+  </component>
+</project>
