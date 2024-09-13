@@ -41,6 +41,13 @@ public class PetStoreTests {
       Assertions.assertNotNull(responseBody);
     }
 
+    @Test
+    @Tag("Negative")
+    public void getPetInventoriesWithInvalidUrl(){
+        storeService.getPetInventoriesInfo("sometext").should(hasStatusCode(404));
+
+    }
+
 
     @Test
     @Tag("Positive")

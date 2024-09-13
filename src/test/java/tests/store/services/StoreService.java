@@ -15,6 +15,11 @@ public class StoreService {
         return new AssertableResponse(given().get("inventory").then());
 
     }
+    @Step("Try get information about Inventories with invalid URL")
+    public AssertableResponse getPetInventoriesInfo(String sometext){
+        return new AssertableResponse(given().get("inventory" + sometext).then());
+
+    }
     @Step("Place Order")
     public AssertableResponse placeOrder(Order order){
 
